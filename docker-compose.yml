@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: # What directory contains out build instructions?
+    ports:
+     # what port do we need to bind? 
+     - 'XXXX:XXXX'
+  redis:
+    image: # what image for redis do we want to use?
